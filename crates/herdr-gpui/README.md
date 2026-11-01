@@ -3402,7 +3402,7 @@ names only, without following a redirect.
 **Layouts.** `[chat] layout` picks how a chat view draws: `timeline` puts the
 entries on a line with an avatar where the speaker changes, `bubbles` puts
 your messages in bubbles on the right with the settings under the prompt box,
-as Claude's app does, `omp` uses OMP's editorial transcript and rounded
+as Claude's app does, `omp` uses OMP's reference timeline and rounded
 composer treatment, `terminal` draws it as Claude Code's own screen in the
 terminal font, `document` makes each prompt a heading with the reply as prose
 under it, and `cards` puts each turn in one card. The button in a chat's

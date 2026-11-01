@@ -5,7 +5,6 @@ chat-layout-timeline = Timeline
 chat-layout-bubbles = Bubbles
 chat-layout-terminal = Terminal
 chat-layout-document = Document
-chat-layout-omp = OMP
 chat-layout-cards = Cards
 chat-layout-imessage = iMessage
 chat-layout-ia = iA
