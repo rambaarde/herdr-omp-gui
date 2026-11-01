@@ -3342,7 +3342,7 @@ conversation natively over that pane. The program is the agent's only client,
 so the Herdr TUI, a plain terminal, and every app window see one conversation.
 
 **Starting one.** A group's **…** menu lists **New Chat** with one row per
-agent `herdr-acp` knows (Claude, Codex, Copilot, Gemini, OpenCode, Pi). A row
+agent `herdr-acp` knows (Claude, Codex, Copilot, Gemini, OMP, OpenCode, Pi). A row
 opens a tab named after the agent in the focused workspace, in the focused
 pane's folder, and runs the program there; `herdr-gpui chat new AGENT` does
 the same from a pane. The rows show once the app has found `herdr-acp`,
@@ -3350,8 +3350,8 @@ first beside its own executable (the app bundle, `cargo build`'s target
 directory, or where `just install` puts both) and then on the login shell's
 `PATH`, and only for the Herdr on this machine. Each agent has to be
 installed: `claude`, `codex` and `pi` (which `herdr-acp` drives without an
-ACP adapter), `copilot --acp`, `gemini --acp`, or `opencode acp`. The program can
-also be started by hand in any pane: `herdr-acp claude`.
+ACP adapter), `copilot --acp`, `gemini --acp`, `omp acp`, or `opencode acp`. The
+program can also be started by hand in any pane: `herdr-acp omp`.
 
 **One click.** Each tab strip also offers a button per installed agent that
 starts its chat in a new tab of that group; the chat's tab looks like any

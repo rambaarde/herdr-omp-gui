@@ -118,9 +118,9 @@ Agents:
              (or npx @agentclientprotocol/codex-acp)
   copilot    copilot --acp
   gemini     gemini --acp
+  omp        omp acp
   opencode   opencode acp
   pi         pi --mode rpc, or with --acp pi-acp (or npx pi-acp)
-
 Options:
   --acp          Use the agent's ACP adapter, not the agent itself
                  (also HERDR_ACP_ADAPTER=1)

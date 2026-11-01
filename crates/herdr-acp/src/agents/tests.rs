@@ -46,3 +46,10 @@ fn a_missing_agent_is_named_by_its_last_candidate() {
     assert_eq!(program, "opencode");
     assert_eq!(args, ["acp"]);
 }
+
+#[test]
+fn omp_uses_its_native_acp_command() {
+    let (program, args) = command(Agent::Omp, None);
+    assert_eq!(program, "omp");
+    assert_eq!(args, ["acp"]);
+}

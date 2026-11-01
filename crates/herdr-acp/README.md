@@ -5,8 +5,8 @@ in a terminal pane, draws the conversation there, and lets Herdr UI attach to it
 and show it as a native chat.
 
 ```sh
-herdr-acp claude             # or codex, copilot, gemini, opencode
-herdr-acp -- goose acp       # any ACP agent command
+herdr-acp claude             # or codex, copilot, gemini, omp, opencode
+herdr-acp -- omp acp         # any ACP agent command
 herdr-acp --load ID codex    # continue one of the agent's sessions
 ```
 
@@ -150,6 +150,7 @@ it; terminals that do not ignore it.
 | `codex` | `codex app-server` (see below); with `--acp`, `codex-acp`, else `npx -y @agentclientprotocol/codex-acp` |
 | `copilot` | `copilot --acp` |
 | `gemini` | `gemini --acp` |
+| `omp` | `omp acp` |
 | `opencode` | `opencode acp` |
 | `pi` | `pi --mode rpc` (see below); with `--acp`, `pi-acp`, else `npx -y pi-acp` |
 
