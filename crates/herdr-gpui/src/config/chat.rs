@@ -151,6 +151,9 @@ chat_layouts! {
     /// Each prompt as a heading with an accent bar, the reply as prose
     /// under it, and a quiet rule closing each turn.
     Document => "document", "chat-layout-document";
+    /// OMP's editorial transcript: right-aligned soft prompt bubbles,
+    /// full-width agent prose, and a rounded composer.
+    Omp => "omp", "chat-layout-omp";
     /// Each turn in one card: the prompt on top, the reply under a
     /// hairline, how it ended at its foot.
     Cards => "cards", "chat-layout-cards";

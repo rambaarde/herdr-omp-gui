@@ -12,6 +12,7 @@ mod cards;
 mod document;
 mod ia;
 mod imessage;
+mod omp;
 mod terminal;
 mod timeline;
 
@@ -199,6 +200,7 @@ pub(super) fn layout_for(mode: ChatLayoutMode) -> &'static dyn ChatLayout {
         ChatLayoutMode::Bubbles => &bubbles::Bubbles,
         ChatLayoutMode::Terminal => &terminal::Terminal,
         ChatLayoutMode::Document => &document::Document,
+        ChatLayoutMode::Omp => &omp::Omp,
         ChatLayoutMode::Cards => &cards::Cards,
         ChatLayoutMode::IMessage => &imessage::IMessage,
         ChatLayoutMode::IA => &ia::IA,
